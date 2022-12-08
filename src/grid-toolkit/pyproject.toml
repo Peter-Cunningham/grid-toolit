@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=65.6.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grid-toolkit"
+version = "0.1.0"
+description = "A collection of helper functions to support UK Civil Servants using internal data platforms. Simplfy key actions, specifically making actions easier, working around prohibitive IT policies which block wider libraries"
+readme = "README.md"
+authors = [{ name = "Peter Cunningham", email = "cunninp6@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["grid"]
+dependencies = [
+    "sqlalchemy",
+    "pandas",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://https://github.com/Peter-Cunningham/grid-toolit"
